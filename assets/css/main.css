@@ -2381,7 +2381,6 @@
 		.button.special {
 			background-color: #4acaa8;
 			color: #ffffff !important;
-			width: 150px;
 		}
 
 			input[type="submit"].special:hover,
@@ -3105,3 +3104,8 @@
 		  padding-right: 8px;
 
 		  	}
+
+	#spbtn{
+		width:150px;
+	}
+
