@@ -1986,7 +1986,7 @@
 
 	.image {
 		border-radius: 5px;
-		border: 0;
+		border: 0px;
 		display: inline-block;
 		position: relative;
 	}
@@ -2043,13 +2043,13 @@
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2.25em 0;
-		padding-left: 1em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			padding:0;
 		}
 
 		ul.alt {
@@ -3097,7 +3097,10 @@
 		    display: inline-block;
 	}
 
-	.li-list {
-		  list-style-type: none;
-		  display: flex;
-	}
+	.li-list li {
+		  display: inline-block;
+		  padding: 0;
+		  list-style: none;
+		  padding-right: 8px;
+
+		  	}
